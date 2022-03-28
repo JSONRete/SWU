@@ -4,11 +4,11 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
-# gem "rails"
+gem "rails"
 
 # gem 'pry'
-# gem 'json'
-# gem 'rest-client'
+gem 'json'
+gem 'rest-client'
 
 gem 'sinatra'
 gem 'activerecord', "~> 5.2.4"
